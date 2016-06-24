@@ -36,7 +36,6 @@ RadialBar.prototype.set = function(p) {
 	this.progress = p;
 
 	this.roundProgress();
-	this.update();
 }
 RadialBar.prototype.subtract = function(p) {
 	this.degProgress -= p*this.PERCENT_DEG;
@@ -48,8 +47,6 @@ RadialBar.prototype.subtract = function(p) {
 		this.progress = 0;
 		this.degProgress = 0.01;
 	}
-
-	this.update();
 }
 RadialBar.prototype.add = function(p) {
 	this.degProgress += p*this.PERCENT_DEG;
@@ -61,8 +58,6 @@ RadialBar.prototype.add = function(p) {
 		this.progress = 100;
 		this.degProgress = 359.99;
 	}
-
-	this.update();
 }
 RadialBar.prototype.roundProgress = function() {
 	this.degProgress = Math.ceil((this.degProgress)*100)/100;

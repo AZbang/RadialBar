@@ -1,6 +1,6 @@
 {
   "name": "radial-progress-bar",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Javascript library for creating radial progress bars on canvas",
   "main": "index.html",
   "scripts": {

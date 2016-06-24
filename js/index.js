@@ -16,7 +16,7 @@ window.onload = function() {
 			backLineFill: '#FB6929',
 			bgFill: '#F8FF8E',
 			isShowInfoText: true,
-			infoStyle: '60px Poiret One'
+			infoStyle: '60px Arial'
 		});
 
 	var progressBarTwo = new RadialBar(ctx, 
@@ -30,7 +30,7 @@ window.onload = function() {
 			bgFill: '#F8FF8E',
 			progress: 100,
 			isShowInfoText: true,
-			infoStyle: '30px Archangelsk',
+			infoStyle: '30px Arial',
 			infoColor: 'red'
 	});
 	var progressBarThree = new RadialBar(ctx, 
@@ -43,7 +43,7 @@ window.onload = function() {
 			backLineFill: '#FB6929',
 			bgFill: '#F8FF8E',
 			isShowInfoText: true,
-			infoStyle: '40px Hachicro'
+			infoStyle: '40px Arial'
 
 	});
 	var progressBarStatic = new RadialBar(ctx, 
@@ -66,8 +66,12 @@ window.onload = function() {
 		progressBarOne.add(0.1);
 		progressBarTwo.subtract(0.2);
 		progressBarThree.add(0.15);
-
 		progressBarStatic.set(50);
+
+		progressBarOne.update();
+		progressBarTwo.update();
+		progressBarThree.update();
+		progressBarStatic.update();
 
 		requestAnimationFrame(loop);
 	}
