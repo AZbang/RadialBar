@@ -2,6 +2,8 @@
 
 Эта JavaScript библиотека позволяет создавать радиальные прогресс бары на canvas.
 
+![pic](./pic.gif)
+
 ## Пример
     
     var canvas = document.getElementById('paper');
