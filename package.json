@@ -1,6 +1,6 @@
 {
-  "name": "radial-progress-bar",
-  "version": "0.1.0",
+  "name": "radial-bar",
+  "version": "0.2.0",
   "description": "Javascript library for creating radial progress bars on canvas",
   "main": "index.html",
   "scripts": {
@@ -8,12 +8,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AZbang/Radial-progress-bar.git"
+    "url": "git+https://github.com/AZbang/RadialBar.git"
   },
   "author": "AZbang - Zhevlakov Andrey",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AZbang/Radial-progress-bar/issues"
+    "url": "https://github.com/AZbang/RadialBar.git/issues"
   },
-  "homepage": "https://github.com/AZbang/Radial-progress-bar#readme"
+  "homepage": "https://github.com/AZbang/RadialBar.git#readme",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "bower-webpack-plugin": "^0.1.9",
+    "webpack": "^1.13.2"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {},
+  "keywords": [
+    "canvas",
+    "radial",
+    "bar",
+    "progress",
+    "circle"
+  ]
 }
