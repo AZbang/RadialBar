@@ -1,9 +1,11 @@
+"use strict"
+
 const helper = require('./helper.js');
 
 class RadialBar {
-	constructor(ctx, config = {}) {
+	constructor(ctx, config) {
 		this.ctx = ctx;
-		this.styles(config);
+		this.styles(config || {});
 
 		// const
 		this.PERCENT_DEG = 360/100;

@@ -1,9 +1,17 @@
-# RadialBar (v.0.2.0)
+# RadialBar (v.0.2.2)
 
 **Эта JavaScript библиотека позволяет создавать радиальные прогресс бары на canvas.**
  
 ![pic](./pic.gif)
-  
+ 
+## Установить
+**Bower** `bower i radial-bar`
+
+**NPM** `npm i radial-bar --save`
+
+**А так же вы можете клонировать репозиторий или скачать релиз**
+
+
 ## Пример
 
 ```javascript

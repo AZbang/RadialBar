@@ -1,0 +1,26 @@
+{
+  "name": "radial-bar",
+  "description": "Javascript library for creating radial progress bars on canvas",
+  "main": "dist/RadialBar.js",
+  "version": "0.2.2",
+  "authors": [{
+      "name": "Zhevlakov Andrey (azbang)",
+      "email": "azbango5@gmail.com"
+  }],
+  "license": "MIT",
+  "keywords": [
+    "canvas",
+    "radial",
+    "bar",
+    "progress",
+    "circle"
+  ],
+  "homepage": "https://github.com/AZbang/RadialBar",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
