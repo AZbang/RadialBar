@@ -2,7 +2,7 @@
 
 **Эта JavaScript библиотека позволяет создавать радиальные прогресс бары на canvas.**
  
-![pic](./pic.gif)
+![pic](https://github.com/AZbang/media-storage/blob/master/RadialBar/main.gif)
  
 ## Установить
 **Bower** `bower i radial-bar`
